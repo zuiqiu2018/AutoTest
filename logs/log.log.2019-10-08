@@ -1,0 +1,8 @@
+2019-10-08 18:50:11,811-【test_audit.py-->line36】-DEBUG--------开始审核接口测试{}-------
+2019-10-08 18:50:11,986-【test_audit.py-->line84】-INFO-测试数据为：{"mobilephone":"13572283756","pwd": "abcdefg"}
+2019-10-08 18:50:11,986-【test_audit.py-->line85】-INFO-期望结果是：10001
+2019-10-08 18:50:11,986-【test_audit.py-->line86】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2019-10-08 18:50:12,077-【test_audit.py-->line84】-INFO-测试数据为：{"memberId":170618,"title": "i need money","amount":10000.00,"loanRate": 18.0,"loanTerm": 6,"loanDateType": 0,"repaymemtWay": 4,"biddingDays":10}
+2019-10-08 18:50:12,077-【test_audit.py-->line85】-INFO-期望结果是：10001
+2019-10-08 18:50:12,077-【test_audit.py-->line86】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '加标成功'}
+2019-10-08 18:50:12,081-【test_audit.py-->line40】-DEBUG--------结束审核接口测试{}-------

@@ -1,0 +1,240 @@
+2019-11-18 19:47:36,615-【test_cases.py-->line49】-DEBUG--------开始登录接口测试{}-------
+2019-11-18 19:47:36,786-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefg'}
+2019-11-18 19:47:36,786-【test_cases.py-->line82】-INFO-期望结果是：{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-11-18 19:47:36,786-【test_cases.py-->line83】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2019-11-18 19:47:36,974-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefgg'}
+2019-11-18 19:47:36,974-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:47:36,974-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:47:37,130-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': 'abcdefg'}
+2019-11-18 19:47:37,130-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:47:37,130-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:47:37,240-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': ''}
+2019-11-18 19:47:37,240-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+2019-11-18 19:47:37,240-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-18 19:47:37,333-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '', 'pwd': 'abcdefg'}
+2019-11-18 19:47:37,333-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-11-18 19:47:37,333-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-18 19:47:37,661-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13815546164', 'pwd': 'abcdefg'}
+2019-11-18 19:47:37,661-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:47:37,661-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:47:37,661-【test_cases.py-->line53】-DEBUG--------结束登录接口测试{}-------
+2019-11-18 19:47:37,661-【test_cases.py-->line99】-DEBUG--------开始注册接口测试{}-------
+2019-11-18 19:47:37,943-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-18 19:47:38,083-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-18 19:47:38,083-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-18 19:47:38,115-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13451478626', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:38,115-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-18 19:47:38,115-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-18 19:47:38,381-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-18 19:47:38,506-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-18 19:47:38,506-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-18 19:47:38,552-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13792829598', 'pwd': '123456', 'regname': ''}
+2019-11-18 19:47:38,552-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-18 19:47:38,552-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-18 19:47:38,806-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:38,836-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '18623333423', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:38,836-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20110","data": null,"msg": "手机号码已被注册"}
+2019-11-18 19:47:38,836-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+2019-11-18 19:47:39,040-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:39,071-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:39,071-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "手机号不能为空"}
+2019-11-18 19:47:39,071-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-18 19:47:39,258-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:39,305-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '1862333342', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:39,305-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:47:39,305-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:47:39,493-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:39,540-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334233', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:39,540-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:47:39,540-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:47:39,728-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:39,774-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334a3', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:39,774-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:47:39,774-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:47:39,978-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:40,008-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:47:40,008-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:47:40,008-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:47:40,212-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:40,243-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '', 'regname': '123'}
+2019-11-18 19:47:40,243-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "密码不能为空"}
+2019-11-18 19:47:40,243-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-18 19:47:40,430-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:40,462-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '12345', 'regname': '123'}
+2019-11-18 19:47:40,462-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-18 19:47:40,462-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-18 19:47:40,681-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:47:40,712-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289386', 'pwd': '123456789asdfghjkhhfg', 'regname': '123'}
+2019-11-18 19:47:40,712-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-18 19:47:40,712-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-18 19:47:40,712-【test_cases.py-->line104】-DEBUG--------结束注册接口测试{}-------
+2019-11-18 19:49:08,398-【test_cases.py-->line49】-DEBUG--------开始登录接口测试{}-------
+2019-11-18 19:49:08,570-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefg'}
+2019-11-18 19:49:08,570-【test_cases.py-->line82】-INFO-期望结果是：{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-11-18 19:49:08,570-【test_cases.py-->line83】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2019-11-18 19:49:08,726-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefgg'}
+2019-11-18 19:49:08,726-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:49:08,726-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:49:08,898-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': 'abcdefg'}
+2019-11-18 19:49:08,898-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:49:08,898-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:49:08,992-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': ''}
+2019-11-18 19:49:08,992-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+2019-11-18 19:49:08,992-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-18 19:49:09,101-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '', 'pwd': 'abcdefg'}
+2019-11-18 19:49:09,101-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-11-18 19:49:09,101-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-18 19:49:09,398-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13714369113', 'pwd': 'abcdefg'}
+2019-11-18 19:49:09,398-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-18 19:49:09,398-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-18 19:49:09,398-【test_cases.py-->line53】-DEBUG--------结束登录接口测试{}-------
+2019-11-18 19:49:09,398-【test_cases.py-->line99】-DEBUG--------开始注册接口测试{}-------
+2019-11-18 19:49:09,665-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-18 19:49:09,805-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-18 19:49:09,805-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-18 19:49:09,836-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13792229253', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:09,836-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-18 19:49:09,836-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-18 19:49:10,117-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-18 19:49:10,242-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-18 19:49:10,242-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-18 19:49:10,273-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13555956823', 'pwd': '123456', 'regname': ''}
+2019-11-18 19:49:10,273-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-18 19:49:10,273-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-18 19:49:10,539-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:10,570-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '18623333423', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:10,570-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20110","data": null,"msg": "手机号码已被注册"}
+2019-11-18 19:49:10,570-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+2019-11-18 19:49:10,758-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:10,805-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:10,805-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "手机号不能为空"}
+2019-11-18 19:49:10,805-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-18 19:49:10,993-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:11,023-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '1862333342', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:11,023-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:49:11,023-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:49:11,227-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:11,273-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334233', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:11,273-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:49:11,273-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:49:11,461-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:11,508-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334a3', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:11,508-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:49:11,508-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:49:11,680-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:11,727-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': '123456', 'regname': '123'}
+2019-11-18 19:49:11,727-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-18 19:49:11,727-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-18 19:49:11,914-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:11,945-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '', 'regname': '123'}
+2019-11-18 19:49:11,945-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "密码不能为空"}
+2019-11-18 19:49:11,945-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-18 19:49:12,148-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:12,180-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '12345', 'regname': '123'}
+2019-11-18 19:49:12,180-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-18 19:49:12,180-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-18 19:49:12,367-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-18 19:49:12,398-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289386', 'pwd': '123456789asdfghjkhhfg', 'regname': '123'}
+2019-11-18 19:49:12,398-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-18 19:49:12,398-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-18 19:49:12,398-【test_cases.py-->line104】-DEBUG--------结束注册接口测试{}-------
+2019-11-19 13:15:20,314-【test_cases.py-->line49】-DEBUG--------开始登录接口测试{}-------
+2019-11-19 13:15:20,498-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefg'}
+2019-11-19 13:15:20,498-【test_cases.py-->line82】-INFO-期望结果是：{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-11-19 13:15:20,498-【test_cases.py-->line83】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2019-11-19 13:15:20,676-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': 'abcdefgg'}
+2019-11-19 13:15:20,677-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-19 13:15:20,677-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-19 13:15:20,839-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': 'abcdefg'}
+2019-11-19 13:15:20,839-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-19 13:15:20,839-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-19 13:15:20,941-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13572283756', 'pwd': ''}
+2019-11-19 13:15:20,941-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+2019-11-19 13:15:20,941-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-19 13:15:21,044-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '', 'pwd': 'abcdefg'}
+2019-11-19 13:15:21,044-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-11-19 13:15:21,044-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-19 13:15:21,363-【test_cases.py-->line81】-INFO-测试数据为：{'mobilephone': '13146725472', 'pwd': 'abcdefg'}
+2019-11-19 13:15:21,364-【test_cases.py-->line82】-INFO-期望结果是：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-11-19 13:15:21,364-【test_cases.py-->line83】-INFO-实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2019-11-19 13:15:21,364-【test_cases.py-->line53】-DEBUG--------结束登录接口测试{}-------
+2019-11-19 13:15:21,364-【test_cases.py-->line99】-DEBUG--------开始注册接口测试{}-------
+2019-11-19 13:15:21,634-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-19 13:15:21,763-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-19 13:15:21,763-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-19 13:15:21,798-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13569823647', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:21,798-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-19 13:15:21,798-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-19 13:15:22,069-【test_cases.py-->line124】-DEBUG-此条用例走了if语句
+2019-11-19 13:15:22,218-【test_cases.py-->line127】-INFO-测试数据为：1
+2019-11-19 13:15:22,219-【test_cases.py-->line128】-INFO-期望结果是：1
+2019-11-19 13:15:22,254-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13788569351', 'pwd': '123456', 'regname': ''}
+2019-11-19 13:15:22,254-【test_cases.py-->line144】-INFO-期望结果是：{"status": 1,"code": "10001","data": null,"msg": "注册成功"}
+2019-11-19 13:15:22,254-【test_cases.py-->line145】-INFO-实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2019-11-19 13:15:22,520-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:22,556-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '18623333423', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:22,556-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20110","data": null,"msg": "手机号码已被注册"}
+2019-11-19 13:15:22,556-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+2019-11-19 13:15:22,774-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:22,809-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:22,809-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "手机号不能为空"}
+2019-11-19 13:15:22,809-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2019-11-19 13:15:23,001-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:23,036-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '1862333342', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:23,036-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-19 13:15:23,036-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-19 13:15:23,232-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:23,268-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334233', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:23,268-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-19 13:15:23,268-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-19 13:15:23,464-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:23,506-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '186233334a3', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:23,506-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-19 13:15:23,506-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-19 13:15:23,706-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:23,743-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '12345678909', 'pwd': '123456', 'regname': '123'}
+2019-11-19 13:15:23,743-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20109","data": null,"msg": "手机号码格式不正确"}
+2019-11-19 13:15:23,743-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2019-11-19 13:15:23,954-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:23,989-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '', 'regname': '123'}
+2019-11-19 13:15:23,989-【test_cases.py-->line144】-INFO-期望结果是：{"status": 0,"code": "20103","data": null,"msg": "密码不能为空"}
+2019-11-19 13:15:23,989-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2019-11-19 13:15:24,184-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:24,219-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289382', 'pwd': '12345', 'regname': '123'}
+2019-11-19 13:15:24,219-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-19 13:15:24,220-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-19 13:15:24,420-【test_cases.py-->line130】-DEBUG-此条用例没有走if语句
+2019-11-19 13:15:24,456-【test_cases.py-->line143】-INFO-测试数据为：{'mobilephone': '13736289386', 'pwd': '123456789asdfghjkhhfg', 'regname': '123'}
+2019-11-19 13:15:24,456-【test_cases.py-->line144】-INFO-期望结果是：{
+    "status": 0,
+    "code": "20108",
+    "data": null,
+    "msg": "密码长度必须为6~18"
+}
+2019-11-19 13:15:24,456-【test_cases.py-->line145】-INFO-实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2019-11-19 13:15:24,457-【test_cases.py-->line104】-DEBUG--------结束注册接口测试{}-------
